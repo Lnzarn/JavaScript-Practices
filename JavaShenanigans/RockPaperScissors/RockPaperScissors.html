@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="Styles/RPSGeneral.css" />
+    <link rel="stylesheet" href="Styles/RPSMain.css" />
+  </head>
+  <body>
+    <div><h1>Rock Paper Scissors</h1></div>
+    <div class="button-box">
+      <button
+        onclick="
+        playGame('rock')
+     "
+        class="rps-button"
+      >
+        <img src="RPSImages/rock.png" />
+      </button>
+
+      <button
+        onclick="
+        playGame('paper')
+    "
+        class="rps-button"
+      >
+        <img src="RPSImages/paper.png" />
+      </button>
+
+      <button
+        onclick="
+        playGame('scissors')
+    "
+        class="rps-button"
+      >
+        <img src="RPSImages/scissors.png" />
+      </button>
+    </div>
+    <div class="competitors-flex">
+      <div class="player"><img src="RPSImages/Player.png" /></div>
+      <div class="move-box1">
+        <div>Player</div>
+        <div><p class="js-detail-player"></p></div>
+        <div><p class="js-detail-playsay"></p></div>
+      </div>
+      <div class="middle-box">VS</div>
+      <div class="move-box2">
+        <div>Computer</div>
+        <div><p class="js-detail-computer"></p></div>
+        <div><p class="js-detail-compsay"></p></div>
+      </div>
+      <div class="computer"><img src="RPSImages/Computer.png" /></div>
+    </div>
+    <div class="under-details">
+      <p class="js-results"></p>
+      <p class="js-tally"></p>
+    </div>
+
+    <button
+      onclick="
+        resultTally.wins = 0;
+        resultTally.loses = 0;
+        resultTally.ties = 0;
+        localStorage.removeItem('Tally');
+        updateTally();
+    "
+      class="reset-score"
+    >
+      Reset Score
+    </button>
+
+    <script src="RPSScript.js"></script>
+  </body>
+</html>

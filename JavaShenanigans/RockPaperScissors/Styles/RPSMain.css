@@ -1,0 +1,133 @@
+.competitors-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.player, .computer {
+    width: 140px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.player img {
+    width: 150px;
+    height: 150px;
+}
+
+.computer img {
+    width: 150px;
+    height: 150px;
+}
+
+.middle-box {
+    color: rgb(255, 230, 252);
+    width: 50px;
+    font-size: 50px;
+    font-family: Pixelify Sans;
+    padding-top: 150px;
+}
+.move-box1, .move-box2 {
+    color: rgb(255, 230, 252);
+    background-color: rgba(251, 72, 196, 0.3);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 174, 228);
+    flex: 1;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 30px;
+    text-align: center;
+    font-family: Pixelify Sans;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 10px;
+    cursor: default;
+    box-shadow: 0 0 10px rgba(234, 53, 173, 1);
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    min-width: 1050px;
+    justify-content: center;
+    padding: 20px;
+}
+.rps-button {
+    width: 130px;
+    min-width: 130px;
+    height: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 65px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(255, 174, 228);
+    background-color: transparent;
+    box-shadow: 0 0 20px rgba(234, 53, 173, 1);
+    cursor: pointer;
+    transition: all .2s ease-in-out ;
+}
+
+.rps-button:hover {
+    background-color: rgb(26, 26, 26, 0.8);
+    transform: scale(1.1);
+}
+
+.rps-button:active {
+    background-color: rgba(253, 199, 251, 0.5);
+}
+
+.rps-button img {
+    width: 80px;
+}
+
+.move-icon {
+    width: 200px;
+}
+
+.js-results {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.js-tally {
+    font-size: 35px;
+    margin: 0;
+    margin-top: 45px;
+}
+.js-detail-playsay, .js-detail-compsay {
+    font-size: 23px;
+}
+
+.under-details {
+    min-width: 1050px;
+}
+
+.reset-score {
+    color: rgb(255, 230, 252);
+    font-size: 20px;
+    font-family: Pixelify Sans;
+    padding: 10px;
+    border-radius: 30px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(255, 174, 228);
+    background-color: transparent;
+    box-shadow: 0 0 20px rgba(234, 53, 173, 1);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.reset-score:hover {
+    background-color: rgb(26, 26, 26, 0.4);
+    transform: scale(1.1);
+}
+
+.reset-score:active {
+    background-color: rgba(253, 199, 251, 0.5);
+}

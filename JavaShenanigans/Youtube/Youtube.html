@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Styles/General.css" />
+    <link rel="stylesheet" href="Styles/Video.css" />
+    <link rel="stylesheet" href="Styles/Header.css" />
+    <link rel="stylesheet" href="Styles/Sidebar.css">
+    <title>Youtube's Long Lost Twin</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <div class="menu-flex">
+          <button class="menu-button"><img class="menu" src="Images/hamburger-menu.svg" /></button>
+        </div>
+        <div>
+          <div class="logo-flex">
+            <img class="youtube-logo" src="Images/youtube-logo.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-icon" >
+          <img class="search-icon-img" src="Images/search.svg">
+        </button>
+        <button  class="voice-search-icon">
+          <img class="voice-search-img" src="Images/voice-search-icon.svg">
+        </button>
+      </div>
+      <div class="right-section">
+        <div><button class="upload-button"><img class="upload-img" src="Images/upload.svg"></button></div>
+        <div class="notif-container"><button class="notif-button"><img class="notif-img" src="Images/notifications.svg"></button>
+          <div class="notif-number">9+</div>
+        </div>
+        <img class="profile-img" src="Images/unnamed.jpg">
+      </div>
+    </div>
+    <div class="sidebar">
+      <div>
+        <button><img src="Images/home.svg"><p>Home</p></button>
+      </div>
+      <div>
+        <button><img src="Images/explore.svg"><p>Explore</p></button>
+      </div>
+      <div>
+        <button><img src="Images/subscriptions.svg"><p>Subscriptions</p></button>
+      </div>
+      <div>
+        <button><img src="Images/originals.svg"><p>Originals</p></button>
+      </div>
+      <div>
+        <button><img src="Images/youtube-music.svg"><p>Youtube Music</p></button>
+      </div>
+      <div>
+        <button><img src="Images/library.svg"><p>Library</p></button>
+      </div>
+    </div>
+    <div class="video-grid">
+        <!-- Below this is the div for one video-->
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/HTML & CSS.webp"
+              alt="Guide for HTML and CSS"
+            />
+            <div class="video-time">6:31:33</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user1.jpg"
+                alt="picture of user1"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                HTML &#38; CSS Full Course &#8210; Beginner to Pro
+              </p>
+              <p class="username">SuperSimpleDev</p>
+              <p class="video-stats">11M views <b>&#183;</b> 2 years ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/seasons.jpg"
+              alt="Video of Seasons"
+            />
+            <div class="video-time">4:17</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user2.jpg"
+                alt="picture of user2"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">wave to earth &#8210; seasons</p>
+              <p class="username">Alternate</p>
+              <p class="video-stats">4.5M views <b>&#183;</b> 9 months ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/Caseo.webp"
+              alt="Big man caseo"
+            />
+            <div class="video-time">1:18:31</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user3.jpg"
+                alt="picture of user3"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">My Last Night As A Police Officer...</p>
+              <p class="username">CaseOh</p>
+              <p class="video-stats">554k views <b>&#183;</b> 6 days ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="Images/pwede ba.jpg" alt="Pwede ba" />
+            <div class="video-time">5:42</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user4.jpg"
+                alt="picture of user1"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                Lola Amour &#8210; Pwede Ba (Official Lyric Video)
+              </p>
+              <p class="username">Lola Amour</p>
+              <p class="video-stats">48M views <b>&#183;</b> 5 years ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/chains together.webp"
+              alt="Chains Together Forever"
+            />
+            <div class="video-time">32:40</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user5.jpg"
+                alt="picture of user5"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                Chained Together is the final boss of friendships
+              </p>
+              <p class="username">zanny</p>
+              <p class="video-stats">642k views <b>&#183;</b> 7 days ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/Myloves.webp"
+              alt="My beautiful girl"
+            />
+            <div class="video-time">13:30</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user6.jpg"
+                alt="picture of user6"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                HOW I SPENT MY WEEK (school vacation edition) &#43; New
+                eyeglasses &#43; adv birthday...
+              </p>
+              <p class="username">msianakaye</p>
+              <p class="video-stats">100M views <b>&#183;</b> 1 month ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/Myloves.webp"
+              alt="My beautiful girl"
+            />
+            <div class="video-time">13:30</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user6.jpg"
+                alt="picture of user6"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                HOW I SPENT MY WEEK (school vacation edition) &#43; New
+                eyeglasses &#43; adv birthday...
+              </p>
+              <p class="username">msianakaye</p>
+              <p class="video-stats">100M views <b>&#183;</b> 1 month ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/Myloves.webp"
+              alt="My beautiful girl"
+            />
+            <div class="video-time">13:30</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user6.jpg"
+                alt="picture of user6"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                HOW I SPENT MY WEEK (school vacation edition) &#43; New
+                eyeglasses &#43; adv birthday...
+              </p>
+              <p class="username">msianakaye</p>
+              <p class="video-stats">100M views <b>&#183;</b> 1 month ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/Myloves.webp"
+              alt="My beautiful girl"
+            />
+            <div class="video-time">13:30</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user6.jpg"
+                alt="picture of user6"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                HOW I SPENT MY WEEK (school vacation edition) &#43; New
+                eyeglasses &#43; adv birthday...
+              </p>
+              <p class="username">msianakaye</p>
+              <p class="video-stats">100M views <b>&#183;</b> 1 month ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/Myloves.webp"
+              alt="My beautiful girl"
+            />
+            <div class="video-time">13:30</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user6.jpg"
+                alt="picture of user6"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                HOW I SPENT MY WEEK (school vacation edition) &#43; New
+                eyeglasses &#43; adv birthday...
+              </p>
+              <p class="username">msianakaye</p>
+              <p class="video-stats">100M views <b>&#183;</b> 1 month ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/Myloves.webp"
+              alt="My beautiful girl"
+            />
+            <div class="video-time">13:30</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user6.jpg"
+                alt="picture of user6"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                HOW I SPENT MY WEEK (school vacation edition) &#43; New
+                eyeglasses &#43; adv birthday...
+              </p>
+              <p class="username">msianakaye</p>
+              <p class="video-stats">100M views <b>&#183;</b> 1 month ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/Myloves.webp"
+              alt="My beautiful girl"
+            />
+            <div class="video-time">13:30</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user6.jpg"
+                alt="picture of user6"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                HOW I SPENT MY WEEK (school vacation edition) &#43; New
+                eyeglasses &#43; adv birthday...
+              </p>
+              <p class="username">msianakaye</p>
+              <p class="video-stats">100M views <b>&#183;</b> 1 month ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/Myloves.webp"
+              alt="My beautiful girl"
+            />
+            <div class="video-time">13:30</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user6.jpg"
+                alt="picture of user6"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                HOW I SPENT MY WEEK (school vacation edition) &#43; New
+                eyeglasses &#43; adv birthday...
+              </p>
+              <p class="username">msianakaye</p>
+              <p class="video-stats">100M views <b>&#183;</b> 1 month ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/Myloves.webp"
+              alt="My beautiful girl"
+            />
+            <div class="video-time">13:30</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user6.jpg"
+                alt="picture of user6"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                HOW I SPENT MY WEEK (school vacation edition) &#43; New
+                eyeglasses &#43; adv birthday...
+              </p>
+              <p class="username">msianakaye</p>
+              <p class="video-stats">100M views <b>&#183;</b> 1 month ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="Images/Myloves.webp"
+              alt="My beautiful girl"
+            />
+            <div class="video-time">13:30</div>
+          </div>
+          <div class="video-information">
+            <div class="channel-profile">
+              <img
+                class="user-profile"
+                src="Images/user6.jpg"
+                alt="picture of user6"
+              />
+            </div>
+            <div class="channel-information">
+              <p class="video-title">
+                HOW I SPENT MY WEEK (school vacation edition) &#43; New
+                eyeglasses &#43; adv birthday...
+              </p>
+              <p class="username">msianakaye</p>
+              <p class="video-stats">100M views <b>&#183;</b> 1 month ago</p>
+            </div>
+            <div class="video-dots">
+              <button class="three-dots-button"><img class="three-dots" src="Images/three-dots.png" /></button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
